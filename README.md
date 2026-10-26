@@ -11,16 +11,17 @@ Aplikasi PHP dengan template AdminLTE untuk mengelola nilai mahasiswa. Fitur tab
 
 1. Salin folder `phpdb` ke `C:\xampp\htdocs\webpro5e\phpdb` (atau ke folder document root yang sesuai).
 2. Jalankan Apache dan MySQL dari XAMPP.
-3. Impor `dbnilai.sql` ke MySQL melalui phpMyAdmin (`http://localhost/phpmyadmin`) menggunakan menu **Import**. File SQL membuat database `dbNilai`, tabel, serta data demo.
-4. Buka `http://localhost/webpro5e/phpdb/viewdata.php`.
+3. Buka phpMyAdmin (`http://localhost/phpmyadmin`) dan buat database bernama `dbNilai` jika belum ada.
+4. Pilih database `dbNilai`, buka menu **Import**, lalu impor file `dbnilai.sql`. File ini adalah ekspor struktur dan data database aplikasi; file tersebut tidak membuat atau memilih database secara otomatis.
+5. Buka `http://localhost/webpro5e/phpdb/viewdata.php`.
 
 Koneksi database di `connection.php` menggunakan host `localhost`, pengguna `root`, dan password kosong, sesuai konfigurasi XAMPP bawaan. Ubah konfigurasi tersebut jika MySQL lokal Anda memakai kredensial berbeda.
 
-`dbnilai.sql` berisi data demo untuk instalasi baru. Jangan impor langsung ke database `dbNilai` yang sudah berisi data tanpa membuat cadangan terlebih dahulu; jika hanya ingin menambahkan kolom foto pada database aplikasi yang sudah ada, aplikasi akan menyiapkan kolom tersebut saat dibuka.
+Jangan impor `dbnilai.sql` ke database `dbNilai` yang sudah berisi data tanpa membuat cadangan terlebih dahulu. Saat aplikasi dibuka, aplikasi juga memastikan tabel/kolom foto tersedia pada database yang sudah ada.
 
 ## Foto profil
 
-Data demo pada SQL merujuk file foto di folder `img`. Sertakan folder tersebut ketika memindahkan atau mengunggah aplikasi. Foto tambahan dapat diunggah melalui `http://localhost/webpro5e/phpdb/form_upload.php`, lalu dipilih saat menambah atau mengedit data mahasiswa.
+Path foto dalam SQL merujuk file di folder `img`. Sertakan folder tersebut ketika memindahkan atau mengunggah aplikasi. Foto tambahan dapat diunggah melalui `http://localhost/webpro5e/phpdb/form_upload.php`, lalu dipilih saat menambah atau mengedit data mahasiswa.
 
 ## Struktur data
 
@@ -32,4 +33,4 @@ Saat halaman dan form aplikasi dijalankan, aplikasi juga memastikan tabel/kolom 
 
 ## Repositori GitHub
 
-Setelah repositori dibuat dan visibilitasnya diatur ke **Public**, tambahkan tautan repositori publik di sini.
+https://github.com/AleSihasaleh/UTS-Praktik-Pemrograman-Web

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 26 Okt 2026 pada 16.35
+-- Waktu pembuatan: 26 Okt 2026 pada 16.54
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -43,7 +43,6 @@ CREATE TABLE `nilai` (
 --
 
 INSERT INTO `nilai` (`nim`, `nm_lengkap`, `nilai_akhir`, `nilai_huruf`, `predikat`, `created_date`, `modified_date`, `file_path`) VALUES
-('', '', 0.00, '', '', '2026-10-13 05:55:56', '2026-10-13 05:55:56', NULL),
 ('3202416001', 'A', 80.00, 'A', 'Sangat Memuaskan', '2026-10-15 07:26:26', '2026-10-15 07:28:44', NULL),
 ('3202416002', 'B', 70.00, 'B', 'Memuaskan', '2026-10-15 07:28:10', '2026-10-15 07:28:18', NULL),
 ('3202416003', 'C', 60.00, 'C', 'Cukup Memuaskan', '2026-10-15 07:28:38', '2026-10-15 07:28:38', NULL),
