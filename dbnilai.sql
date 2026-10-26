@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 26 Okt 2026 pada 16.54
+-- Waktu pembuatan: 26 Okt 2026 pada 16.59
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -52,6 +52,7 @@ INSERT INTO `nilai` (`nim`, `nm_lengkap`, `nilai_akhir`, `nilai_huruf`, `predika
 ('3202416007', 'Cc', 65.00, 'C', 'Cukup Memuaskan', '2026-10-26 15:32:02', '2026-10-26 15:32:02', NULL),
 ('3202416008', 'Dd', 55.00, 'D', 'Kurang Memuaskan', '2026-10-26 15:33:08', '2026-10-26 15:33:08', NULL),
 ('3202416009', 'Kosong', 0.00, 'E', 'Tidak Lulus', '2026-10-26 15:33:33', '2026-10-26 15:33:33', NULL),
+('3202416010', 'Kosong2', 0.00, 'E', 'Tidak Lulus', '2026-10-26 15:59:01', '2026-10-26 15:59:01', NULL),
 ('3202416115', 'Muhammad Ale Sihasaleh', 88.00, 'A', 'Sangat Memuaskan', '2026-10-13 08:26:31', '2026-10-26 15:23:29', 'img/046cfa27d9d71625e3d9fc6a4ad1f641.png');
 
 -- --------------------------------------------------------
