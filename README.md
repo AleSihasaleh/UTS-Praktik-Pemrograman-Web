@@ -32,4 +32,4 @@ Saat halaman dan form aplikasi dijalankan, aplikasi juga memastikan tabel/kolom 
 
 ## Repositori GitHub
 
-Setelah repositori dibuat dan visibilitasnya diatur ke **Public**, tambahkan tautan repositori publik di sini.
+https://github.com/AleSihasaleh/UTS-Praktik-Pemrograman-Web
